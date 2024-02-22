@@ -30,5 +30,6 @@ body {
 .loginform input[type="submit"] {
     width: 100%;
     background-color: skyblue;
+    cursor: pointer;
 }
 
