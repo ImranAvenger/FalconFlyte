@@ -293,7 +293,7 @@ body {
   max-width: calc(100% - 130px);
 }
 .outgoing .details p {
-  background: #333;
+  background: #31b5d2;
   color: #fff;
   border-radius: 18px 18px 0 18px;
 }
