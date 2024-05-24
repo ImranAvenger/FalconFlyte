@@ -18,6 +18,14 @@ body {
   background-position: center;
   height: 100vh;
 }
+.logo {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.logo-img {
+  border-radius: 0 !important;
+}
 .wrapper {
   background: #fff;
   max-width: 450px;
@@ -247,7 +255,7 @@ body {
   padding: 18px 30px;
 }
 .chat-area header .back-icon {
-  color: #333;
+  color: #31b5d2;
   font-size: 18px;
 }
 .chat-area header img {

@@ -9,8 +9,9 @@
 <body>
   <div class="wrapper">
     <section class="form signup">
-      <header>FalconFlyte</header>
-      <p>A real time chat app</p>
+      <div class="logo">
+        <img class="logo-img" src="./php/images/logopre.png" alt="logo">
+      </div>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
