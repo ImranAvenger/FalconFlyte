@@ -126,7 +126,7 @@ FalconFlyte is a web-based chat application developed as part of the Web Enginee
 
     - Push to the branch:
 
-        git push origin feature/YourFeature
+          git push origin feature/YourFeature
 
 
     - Open a pull request.
