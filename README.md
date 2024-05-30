@@ -1,47 +1,140 @@
+# FalconFlyte
 
+FalconFlyte is a web-based chat application developed as part of the Web Engineering Lab course. It facilitates real-time communication among users, featuring user authentication, real-time messaging, and user search functionalities.
 
-# FalconFlyte - Chat Application
+## Table of Contents
 
-## Introduction
-FalconFlyte is a modern chat application designed to facilitate seamless communication between users. Developed using HTML, CSS, JavaScript, Ajax, PHP, and MySQL, FalconFlyte offers a user-friendly interface and robust functionality to enable real-time messaging.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
-- **User Authentication:** FalconFlyte includes a secure user authentication system to ensure that only registered users can access the chat application.
-- **Real-time Messaging:** The application allows users to send and receive messages in real-time without needing to refresh the page, thanks to Ajax.
-- **User Profiles:** Users can create profiles, customize their settings, and manage their messaging preferences.
-- **Group Chats:** FalconFlyte supports group chats, enabling multiple users to participate in conversations simultaneously.
-- **Message History:** Users can view their message history, allowing them to track previous conversations and refer back to important information.
-- **Search Functionality:** The application offers search functionality to help users find specific messages or conversations quickly.
-- **Responsive Design:** FalconFlyte is designed with a responsive layout, ensuring a consistent user experience across various devices and screen sizes.
+
+- **User Authentication:**
+  - Sign up and create a new account
+  - Log in with existing credentials
+  - Log out to end the session
+
+- **Real-time Chat:**
+  - Send and receive messages in real-time
+  - View chat history
+
+- **User Management:**
+  - Display a list of users available for chat
+  - Search for users within the chat application
+
+## Technologies Used
+
+- **Front-end:**
+  - HTML
+  - CSS
+  - JavaScript
+
+- **Back-end:**
+  - PHP
+  - SQL
+
+## Project Structure
+```
+.
+└── FalconFlyte/
+    ├── LICENSE
+    ├── README.md
+    ├── chat.php
+    ├── header.php
+    ├── index.php
+    ├── login.php
+    ├── query.sql
+    ├── style.css
+    ├── users.php
+    ├── javascript/
+    │   ├── chat.js
+    │   ├── login.js
+    │   ├── pass-show-hide.js
+    │   ├── signup.js
+    │   └── users.js
+    └── php/
+        ├── config.php
+        ├── data.php
+        ├── get-chat.php
+        ├── insert-chat.php
+        ├── login.php
+        ├── logout.php
+        ├── search.php
+        ├── signup.php
+        ├── users.php
+        └── images/
+            ├── logo.png
+            └── background.jpg
+```
+
+
+
 
 ## Installation
-1. Clone the repository: `git clone [repository_url]`
-2. Navigate to the project directory: `cd FalconFlyte`
-3. Import the database schema provided in `database.sql` to set up the MySQL database.
-4. Update the database configuration in `config.php` with your MySQL credentials.
-5. Launch the application by opening `index.html` in your web browser.
+
+- Clone the repository:
+
+        git clone https://github.com/your-username/FalconFlyte.git
+
+
+- Navigate to the project directory:
+
+        cd FalconFlyte
+
+
+
+- Set up the database:
+    - Create a MySQL database named `chatapp`.
+    - Import the `query.sql` file into the `chatapp` database.
+
+- Configure the database connection:
+    - Open `php/config.php` and update the database credentials.
 
 ## Usage
-1. Register a new account or log in with existing credentials.
-2. Explore the chat interface to send and receive messages.
-3. Customize your profile settings and messaging preferences as needed.
-4. Join group chats or initiate private conversations with other users.
-5. Use the search functionality to find specific messages or conversations quickly.
+
+- Start your local server (e.g., using XAMPP or WAMP).
+- Navigate to the project directory in your web browser:
+
+        http://localhost/FalconFlyte
+
+
+- Sign up for a new account or log in with existing credentials.
+- Start chatting with other users in real-time!
 
 ## Contributing
-Contributions to FalconFlyte are welcome! If you'd like to contribute to the project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature_branch_name`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature_branch_name`
-5. Submit a pull request with your changes.
 
-## Credits
-- FalconFlyte was developed by [Your Name] and [Contributors].
-- Special thanks to [Mentors/Supporters] for their guidance and assistance during the development process.
+- Contributions are welcome! Please follow these steps to contribute:
+
+    - Fork the repository.
+    - Create a new branch:
+
+            git checkout -b feature/YourFeature
+
+
+    - Make your changes.
+    - Commit your changes:
+
+            git commit -m "Add YourFeature"
+
+
+
+    - Push to the branch:
+
+        git push origin feature/YourFeature
+
+
+    - Open a pull request.
 
 ## License
-This project is licensed under the [License Name] License - see the `LICENSE` file for details.
 
-## Contact
-For inquiries or feedback regarding FalconFlyte, please contact [insert contact information here].
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+Special thanks to the Web Engineering Lab course instructors for their guidance and support throughout the development of this project.
