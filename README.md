@@ -80,7 +80,7 @@ FalconFlyte is a web-based chat application developed as part of the Web Enginee
 
 - Clone the repository:
 
-        git clone https://github.com/your-username/FalconFlyte.git
+        git clone https://github.com/ImranAvenger/FalconFlyte.git
 
 
 - Navigate to the project directory:
